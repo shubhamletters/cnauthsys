@@ -10,14 +10,14 @@ const localStrategy = require('./config/passport-local');
 const GoogleStrategy = require('./config/passport-google');
 const User = require('./models/user');
 
-let PORT;
+let PORT=8000;
 
-if(process.env.NODE_ENV=="production"){
-    PORT = process.env.PORT || 8000;
-}
-else{
-    PORT = 8000;
-}
+//if(process.env.NODE_ENV=="production"){
+ //   PORT = process.env.PORT || 8000;
+//}
+// else{
+   // PORT = 8000;
+//}
 
 
 // Use the built-in middleware for parsing incoming request bodies to use req body data

@@ -4,18 +4,13 @@
   "description": "a basic authentication app",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shubhamletters/cnauthsys"
-  },
+  
   "author": "shubham kumar",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shubhamletters/cnauthsys"
-  },
-  "homepage": "https://github.com/shubhamletters/cnauthsys",
+ 
   "dependencies": {
     "bcrypt": "^5.1.0",
     "connect-mongo": "^4.6.0",

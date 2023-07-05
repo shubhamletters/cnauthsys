@@ -10,7 +10,7 @@ const localStrategy = require('./config/passport-local');
 const GoogleStrategy = require('./config/passport-google');
 const User = require('./models/user');
 
-let PORT=8000;
+let PORT=process.env.PORT || 8000;
 
 //if(process.env.NODE_ENV=="production"){
  //   PORT = process.env.PORT || 8000;
